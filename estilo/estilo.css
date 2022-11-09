@@ -1,0 +1,199 @@
+/*ID**/
+#centro{
+    text-align: center;
+}
+
+#cadastro label{
+    display: block;
+}
+
+#login label{
+    display: block;
+    margin: 10px;
+}
+
+/*CLASSE*/
+
+
+.voaresquerda{
+    float: left;
+}
+
+.voardireita{
+    float: right;
+}
+
+.branco{
+    color: white;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+.tamanho{
+  padding-top: 30px;
+}
+
+.btn1{
+    background: #3878D7;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: #004c63;
+}
+
+.btn2{
+    background: #ED9111;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background: #eebe7a;
+}
+
+.btn3{
+    background: #05FF00;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    background: #69f867;
+}
+
+.btn4{
+    background: #3878D7;
+    border-radius: 15px;
+    height: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+.btn5{
+    background: #3878D7;
+    border-radius: 15px;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    display: inline-block; 
+    border: none;
+    cursor: pointer;
+}
+
+.btn5:hover{
+    background: #159cb0;
+}
+
+.bc{
+    color: black;
+}
+
+.bestbuy{
+    width: 100%;
+}
+
+.img{
+    width: 80%;
+}
+
+.embaixo{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    background: #19C7FE;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-left: 147px;
+    padding-right: 125px;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+/*TAG*/
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+input{
+    width: 350px;
+    height: 20px;
+}
+
+.pesquisar{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+body{
+    background: #19C7FE;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+    padding-top: 10px;
+}
+
+/*MENU*/
+ul img{
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+    background: #159cb0 ;
+    text-align: center;
+    width: 720px;
+    padding-left: 479px;
+}
+
+ ul li{
+    float: left;
+    text-align: center;
+ }
+
+ ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+ }
+
+
+
+ ul a:hover{
+    background: #159cb0;
+ }
+

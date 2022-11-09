@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' type='text/css'  href='estilo/estilo.css'>
+        <title>Cadastro</title>
+        <script src="https://kit.fontawesome.com/8f5e9d0b3f.js" crossorigin="anonymous"></script>
+        <script src="js/valida.js"></script>
+    </head>
+    <body>
+        <div id="centro">
+            <ul>
+                <li>
+                    <a href="#"><img src="imagem/menu.png"></a>
+                </li>
+                <li>
+                    <a href="index.html"><img src="imagem/home.png"></a>
+                </li>
+                <li>
+                    <a href="login.html"><img src="imagem/login.png"></a>
+                </li>
+                <li>
+                    <a href="login.html"><img src="imagem/carrinho.png"></a>
+                </li>
+                <li>
+                    <a href="login.html"><img src="imagem/sair.png"></a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+            <div>
+                <img src="imagem/perfil.png">
+            </div>
+
+            <h1 style="color:white">Criar conta</h1>
+            <div id="cadastro">
+                <div>
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+
+                <div>
+                    <label for="csenha">Confirmar Senha:</label>
+                    <input type="password" id="csenha" name="csenha" onblur="validaSenha()" >
+                </div>
+
+                <div>
+                    <input class="btn3" name="submit" type="submit" value="Enviar">
+            
+                </div>
+            </div>
+            
+        </div>
+       
+    </body>
+</html>
